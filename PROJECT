@@ -1,0 +1,16 @@
+domain: kube-vip.io
+layout:
+- go.kubebuilder.io/v3
+projectName: kube-vip-dns
+repo: github.com/kube-vip/kube-vip-dns
+resources:
+- api:
+    crdVersion: v1
+    namespaced: true
+  controller: true
+  domain: kube-vip.io
+  group: dns
+  kind: Vip
+  path: github.com/kube-vip/kube-vip-dns/api/v1
+  version: v1
+version: "3"
