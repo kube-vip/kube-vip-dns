@@ -1,0 +1,7 @@
+apiVersion: dns.kube-vip.io/v1
+kind: Vip
+metadata:
+  name: vip-sample
+spec:
+  # Add fields here
+  foo: bar
